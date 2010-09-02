@@ -9,7 +9,7 @@ begin
     
     gemspec.test_files = 'test/**/*'
     
-    gemspec.add_dependency('rails', '>= 2.3.8')
+    gemspec.add_dependency('rails', '= 2.3.8')
     gemspec.add_dependency('builder', '>= 1.2.4')
     gemspec.add_dependency('hpricot', '>=0.8.2')
 
